@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Playground", "1.Playground\1.Playground.csproj", "{9582A7C0-6C32-4DC6-8C33-428144E9A55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MyExpando", "2.MyExpando\2.MyExpando.csproj", "{84694ACC-AB52-459C-B6B9-EF6E24280153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Musico", "3.Musico\3.Musico.csproj", "{986D455F-E21F-47F6-BE93-2463992E1736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.DataGridDisplay", "4.DataGridDisplay\4.DataGridDisplay.csproj", "{B64E281F-BC06-47A0-BAEE-21E16CEC162C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.PropertyDescriptors", "5.PropertyDescriptors\5.PropertyDescriptors.csproj", "{CF70049F-B0C2-403C-8F49-136CC042FDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.DynamicProperties", "6.DynamicProperties\6.DynamicProperties.csproj", "{66F40CDF-19E1-484D-A695-63DA05FC4304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.AdditionalHints", "7.AdditionalHints\7.AdditionalHints.csproj", "{A82FAB2E-3004-4FCA-8ABE-3145546AAFA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9582A7C0-6C32-4DC6-8C33-428144E9A55D}.Debug|x86.ActiveCfg = Debug|x86
+		{9582A7C0-6C32-4DC6-8C33-428144E9A55D}.Release|x86.ActiveCfg = Release|x86
+		{84694ACC-AB52-459C-B6B9-EF6E24280153}.Debug|x86.ActiveCfg = Debug|x86
+		{84694ACC-AB52-459C-B6B9-EF6E24280153}.Release|x86.ActiveCfg = Release|x86
+		{986D455F-E21F-47F6-BE93-2463992E1736}.Debug|x86.ActiveCfg = Debug|x86
+		{986D455F-E21F-47F6-BE93-2463992E1736}.Debug|x86.Build.0 = Debug|x86
+		{986D455F-E21F-47F6-BE93-2463992E1736}.Release|x86.ActiveCfg = Release|x86
+		{986D455F-E21F-47F6-BE93-2463992E1736}.Release|x86.Build.0 = Release|x86
+		{B64E281F-BC06-47A0-BAEE-21E16CEC162C}.Debug|x86.ActiveCfg = Debug|x86
+		{B64E281F-BC06-47A0-BAEE-21E16CEC162C}.Debug|x86.Build.0 = Debug|x86
+		{B64E281F-BC06-47A0-BAEE-21E16CEC162C}.Release|x86.ActiveCfg = Release|x86
+		{B64E281F-BC06-47A0-BAEE-21E16CEC162C}.Release|x86.Build.0 = Release|x86
+		{CF70049F-B0C2-403C-8F49-136CC042FDB0}.Debug|x86.ActiveCfg = Debug|x86
+		{CF70049F-B0C2-403C-8F49-136CC042FDB0}.Debug|x86.Build.0 = Debug|x86
+		{CF70049F-B0C2-403C-8F49-136CC042FDB0}.Release|x86.ActiveCfg = Release|x86
+		{CF70049F-B0C2-403C-8F49-136CC042FDB0}.Release|x86.Build.0 = Release|x86
+		{66F40CDF-19E1-484D-A695-63DA05FC4304}.Debug|x86.ActiveCfg = Debug|x86
+		{66F40CDF-19E1-484D-A695-63DA05FC4304}.Debug|x86.Build.0 = Debug|x86
+		{66F40CDF-19E1-484D-A695-63DA05FC4304}.Release|x86.ActiveCfg = Release|x86
+		{66F40CDF-19E1-484D-A695-63DA05FC4304}.Release|x86.Build.0 = Release|x86
+		{A82FAB2E-3004-4FCA-8ABE-3145546AAFA6}.Debug|x86.ActiveCfg = Debug|x86
+		{A82FAB2E-3004-4FCA-8ABE-3145546AAFA6}.Debug|x86.Build.0 = Debug|x86
+		{A82FAB2E-3004-4FCA-8ABE-3145546AAFA6}.Release|x86.ActiveCfg = Release|x86
+		{A82FAB2E-3004-4FCA-8ABE-3145546AAFA6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

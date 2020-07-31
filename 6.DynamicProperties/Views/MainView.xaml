@@ -1,0 +1,27 @@
+﻿<Window x:Class="Dynamics.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ViewModels="clr-namespace:Dynamics.ViewModels"
+        Title="Dynamics" Height="350" Width="525">
+  <Window.DataContext>
+    <ViewModels:MainViewModel />
+  </Window.DataContext>
+  <StackPanel Margin="10">
+    <StackPanel Orientation="Horizontal" Margin="10">
+      <Label Content="Performer: " />
+      <TextBox Width="120"
+               Text="{Binding Performer, UpdateSourceTrigger=PropertyChanged}" />
+      <Label Content="Title: " />
+      <TextBox Width="120"
+               Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" />
+      <Button Width="70"
+              Content="Add"
+              Command="{Binding AddCommand}" />
+    </StackPanel>
+    <DataGrid ItemsSource="{Binding Songs}"
+              ScrollViewer.IsDeferredScrollingEnabled="True" />
+    <TextBlock Text=" " />
+    <DataGrid ItemsSource="{Binding Strings}">
+    </DataGrid>
+  </StackPanel>
+</Window>

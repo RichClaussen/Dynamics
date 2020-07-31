@@ -1,0 +1,58 @@
+﻿<Window x:Class="Dynamics.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ViewModels="clr-namespace:Dynamics.ViewModels"
+        Title="Dynamics" Height="350" Width="525">
+  <Window.DataContext>
+    <ViewModels:MainViewModel />
+  </Window.DataContext>
+  <!--<Window.Resources>
+    <Style TargetType="DataGrid">
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="DataGrid">
+            
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+  </Window.Resources>-->
+  <StackPanel Margin="10">
+    <StackPanel Orientation="Horizontal" Margin="10">
+      <Label Content="Performer: " />
+      <TextBox Width="120"
+               Text="{Binding Performer, UpdateSourceTrigger=PropertyChanged}" />
+      <Label Content="Title: " />
+      <TextBox Width="120"
+               Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" />
+      <Button Width="70"
+              Content="Add"
+              Command="{Binding AddCommand}" />
+    </StackPanel>
+    <DataGrid ItemsSource="{Binding Songs}" />
+
+    <!--<ScrollViewer HorizontalScrollBarVisibility="Auto" 
+                  VerticalScrollBarVisibility="Disabled">-->
+      <DataGrid>
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <!--<DataGrid.Columns>
+          <DataGridTextColumn Header="first one" />
+          <DataGridTextColumn Header="second one" />
+          <DataGridTextColumn Header="third one" />
+          <DataGridTextColumn Header="fourth one" />
+          <DataGridTextColumn Header="fifth one" />
+          <DataGridTextColumn Header="sixth one" />
+          <DataGridTextColumn Header="seventh one" />
+          <DataGridTextColumn Header="eighth one" />
+        </DataGrid.Columns>-->
+      </DataGrid>
+    <!--</ScrollViewer>-->
+  </StackPanel>
+</Window>
